@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A simple and clean Pomodoro timer to help you stay focused.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "16x16_green_timer.png",
+    "48": "48x48_green_timer.png",
+    "128": "128x128_green_timer.png"
+  },
+  "permissions": []
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 250px;
+            padding: 8px;
+            text-align: center;
+            background-color: #78fb9b;
+            color: #ffffff;
+        }
+
+        .timer-container {
+            padding: 20px;
+            border-radius: 50px;
+            background-color: #000000;
+            box-shadow: 0 2px 2px rgb(49, 49, 49);
+        }
+
+        #timer {
+            font-size: 4em;
+            margin: 20px 0;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #424549;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.3em;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color:  #78fb9b;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+            
+        }
+
+        .mode-buttons button.active {
+            background-color: #78fb9b;
+            font-weight: bold;
+        }
+        .control-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="timer-container">
+        <div class="mode-buttons">
+            <button id="pomodoro-btn" class="active">Pomodoro</button>
+            <button id="short-break-btn">Short Break</button>
+            <button id="long-break-btn">Long Break</button>
+        </div>
+        <div id="timer">25:00</div>
+        <div class="control-buttons">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn" class="hidden">Pause</button>
+            <button id="reset-btn" class="hidden">Reset</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
