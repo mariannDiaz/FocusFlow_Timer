@@ -4,83 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            width: 250px;
-            padding: 8px;
-            text-align: center;
-            background-color: #78fb9b;
-            color: #ffffff;
-        }
-
-        .timer-container {
-            padding: 20px;
-            border-radius: 50px;
-            background-color: #000000;
-            box-shadow: 0 2px 2px rgb(49, 49, 49);
-        }
-
-        #timer {
-            font-size: 4em;
-            margin: 20px 0;
-            letter-spacing: 2px;
-            font-weight: bold;
-        }
-
-        button {
-            background-color: #424549;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            margin: 5px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1.3em;
-            transition: background-color 0.3s ease, transform 0.1s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            font-weight: bold;
-        }
-
-        button:hover {
-            background-color:  #78fb9b;
-            transform: translateY(-2px);
-        }
-
-        button:active {
-            transform: translateY(0);
-            
-        }
-
-        .mode-buttons button.active {
-            background-color: #78fb9b;
-            font-weight: bold;
-        }
-        .control-buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .hidden {
-            display: none;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="timer-container">
-        <div class="mode-buttons">
-            <button id="pomodoro-btn" class="active">Pomodoro</button>
-            <button id="short-break-btn">Short Break</button>
-            <button id="long-break-btn">Long Break</button>
+    <main>
+        <div class="container">
+        
+        <!-- Pomodoro Screen -->
+        <div id="pomodoro-screen" class="screen active">
+            <header>
+                <div class="icon-row">
+                <button id="settings-btn" aria-label="Settings">&#x2699;</button>
+                <button id="graphs-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1.3.5 2.6 1.5 3.5.8.8 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/><path d="M10 14h4l1 4h-6l1-4Z"/></svg>
+                </button>
+                </div>
+            </header>
+            
+            <div class="mode-spinner">
+                <span id="mode-text">Pomodoro</span>
+                <div class="arrow-container">
+                    <button id="up-arrow" class="arrow-button"><span class="chevron up-chevron"></span></button>
+                    <button id="down-arrow" class="arrow-button"><span class="chevron down-chevron"></span></button>
+                </div>
+            </div>
+            
+            <div id="timer">25:00</div>
+            
+            <div class="control-buttons">
+                <button id="start-btn">Start</button>
+                <button id="pause-btn" style="display: none;">Pause</button>
+                <button id="reset-btn" style="display: none;">Reset</button>
+            </div>
+
+            <div style="margin-top: 20px; display: flex; justify-content: center; align-items: center;">
+                <p>Pomodoro Sessions: <span id="pomodoro-count">0</span></p>
+                <button id="dark-mode-toggle" style="margin-left: 10px;">
+                    <span id="light-mode-icon">&#9728;</span> <!-- Sun icon for light mode -->
+                    <span id="dark-mode-icon" style="display:none;">&#9790;</span> <!-- Moon icon for dark mode -->
+                </button>
+            </div>
+            
         </div>
-        <div id="timer">25:00</div>
-        <div class="control-buttons">
-            <button id="start-btn">Start</button>
-            <button id="pause-btn" class="hidden">Pause</button>
-            <button id="reset-btn" class="hidden">Reset</button>
+
+        <!-- Configurations Screen -->
+        <div id="settings-screen" class="screen">
+            <button class="close-btn" id="close-settings">&times;</button>
+            <h2>Configurations</h2>
+            <div class="settings-item">
+                <label for="pomodoro-length-input">Timer Length:</label>
+                <input type="number" id="pomodoro-length-input" value="25">
+            </div>
+            <div class="settings-item">
+                <label>Long Break:</label>
+                <input type="number" id="long-break-length-input" value="15">
+            </div>
+            <div class="settings-item">
+                <label>Short Break:</label>
+                <input type="number" id="short-break-length-input" value="5">
+            </div>
+            <div class="settings-item">
+                <label>Daily Goal:</label>
+                <input type="number" id="daily-goal-input" value="3">
+            </div>
         </div>
-    </div>
+
+        <!-- Focus Graphs Screen -->
+        <div id="graphs-screen" class="screen">
+            <button class="close-btn" id="close-graphs">&times;</button>
+            <h2>Focus Graphs</h2>
+            <p>Sessions Finished: <span id="total-sessions-graph">0</span></p>
+            <div class="sessions-graph">
+                <!-- Placeholder for chart -->
+                <p style="padding: 20px; text-align: center;">Graphs will go here</p>
+            </div>
+        </div>
+        
+        </div>
+    </main>
     <script src="popup.js"></script>
 </body>
 </html>

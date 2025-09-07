@@ -1,0 +1,301 @@
+/* General Body Styles - Default to Dark Mode */
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 12px solid #00ff00;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    border-color:  #00ff00;
+}
+
+/* Screen Transitions */
+.screen {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* Icon Row */
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    align-self: stretch;
+}
+
+.icon-row button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+body.light-mode .icon-row button {
+    color: #000000;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+body.light-mode .close-btn {
+    color: #000000;
+}
+
+/* Text and Headings */
+h2, h3, p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode p {
+    text-shadow: none;
+}
+
+#timer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+body.light-mode #timer {
+    color: #000000;
+}
+
+/* Mode Spinner */
+.mode-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.mode-text {
+    min-width: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+body.light-mode .mode-text {
+    text-shadow: none;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    font-size: 1.5em;
+}
+
+.arrow-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: color 0.2s ease;
+}
+
+body.light-mode .arrow-button {
+    color: #000000;
+}
+
+.arrow-button:hover {
+    color: #00ff00;
+}
+
+body.light-mode .arrow-button:hover {
+    color: #008000;
+}
+
+.chevron {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+body.light-mode .chevron {
+    border-color: #000000;
+}
+
+.up-chevron {
+    transform: rotate(-135deg);
+}
+
+.down-chevron {
+    transform: rotate(45deg);
+    margin-top: -8px;
+}
+
+/* All Buttons */
+button {
+    background-image: linear-gradient(to bottom, #777777, #555555);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+body.light-mode button {
+    background-image: linear-gradient(to bottom, #f0f0f0, #cccccc);
+    color: #000000;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Settings Screen */
+.settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.settings-item input[type="number"] {
+    width: 50px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body.light-mode .settings-item input[type="number"] {
+    background-color: #e0e0e0;
+    color: #000000;
+    border-color: #008000;
+}
+
+/* Graphs Screen */
+.sessions-graph {
+    width: 100%;
+    height: 150px;
+    background-color: #222;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+body.light-mode .sessions-graph {
+    background-color: #f0f0f0;
+}
+
+/* Congratulations Screen */
+#congratulations-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 3px solid #00ff00;
+    border-radius: 15px;
+    color: white;
+    z-index: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: confetti-rain 5s infinite;
+}
+
+body.light-mode #congratulations-screen {
+    background-color: white;
+    border-color: #008000;
+    color: black;
+    text-shadow: none;
+}
+
+.congrats-text {
+    font-size: 2em;
+    text-shadow: 4px 4px 6px #000;
+    -webkit-text-stroke: 2px #00ff00;
+    color: transparent;
+}
+
+body.light-mode .congrats-text {
+    -webkit-text-stroke: 2px #008000;
+}
+
+.congrats-subtext {
+    font-size: 1.2em;
+}
+
+/* Confetti Animation */
+.confetti-piece {
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    background-color: transparent;
+    transform: rotate(45deg);
+    animation: fall 5s infinite;
+}
+
+.red { background-color: #ff6347; }
+.green { background-color: #32cd32; }
+.blue { background-color: #1e90ff; }
+.yellow { background-color: #ffd700; }
+.purple { background-color: #8a2be2; }
+
+@keyframes fall {
+    0% { transform: translateY(-100px) rotate(0deg); }
+    100% { transform: translateY(500px) rotate(360deg); }
+}
