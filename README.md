@@ -15,7 +15,7 @@
     
 ## 📷 Preview Images: Dark Mode
 
-<img width="250" height="700" alt="Timer Chrome Extention" src="https://github.com/user-attachments/assets/d5ed9735-1372-4d00-8b18-bf3d03d1cc71" /><img width="250" height="700" alt="Timer Chrome Extention (1)" src="https://github.com/user-attachments/assets/fbc8cb37-856f-484b-a70e-940175b1adcf" /><img width="250" height="700" alt="Timer Chrome Extention (4)" src="https://github.com/user-attachments/assets/1934fd24-50ad-4b53-816f-1d15b0459b81" /><img width="250" height="700" alt="Timer Chrome Extention (3)" src="https://github.com/user-attachments/assets/3f8f4cc6-0c74-4713-887e-52ef3393cf84" />
+<img width="200" height="700" alt="Timer Chrome Extention" src="https://github.com/user-attachments/assets/d5ed9735-1372-4d00-8b18-bf3d03d1cc71" /><img width="200" height="700" alt="Timer Chrome Extention (1)" src="https://github.com/user-attachments/assets/fbc8cb37-856f-484b-a70e-940175b1adcf" /><img width="200" height="700" alt="Timer Chrome Extention (4)" src="https://github.com/user-attachments/assets/1934fd24-50ad-4b53-816f-1d15b0459b81" /><img width="200" height="700" alt="Timer Chrome Extention (3)" src="https://github.com/user-attachments/assets/3f8f4cc6-0c74-4713-887e-52ef3393cf84" />
 
 
 
