@@ -2,20 +2,30 @@
 
   ▪️A simple and elegant Pomodoro Timer built as a Chrome Extension.
   
-  ▪️It help you stay focused and manage your work sessions effectively.
-  
+  ▪️It helps you stay focused and manage your work sessions effectively.
+
 
 ## ⚙️Technologies Used
+
     ✅ HTML: For the structure of the application.
 
     ✅ CSS: For styling and visual design.
 
     ✅ JavaScript: For all the timer logic and functionality.
     
+## 📷 Preview Images: Dark Mode
+
+<img width="250" height="700" alt="Timer Chrome Extention" src="https://github.com/user-attachments/assets/d5ed9735-1372-4d00-8b18-bf3d03d1cc71" /><img width="250" height="700" alt="Timer Chrome Extention (1)" src="https://github.com/user-attachments/assets/fbc8cb37-856f-484b-a70e-940175b1adcf" /><img width="250" height="700" alt="Timer Chrome Extention (4)" src="https://github.com/user-attachments/assets/1934fd24-50ad-4b53-816f-1d15b0459b81" /><img width="250" height="700" alt="Timer Chrome Extention (3)" src="https://github.com/user-attachments/assets/3f8f4cc6-0c74-4713-887e-52ef3393cf84" />
+
+
+
+
 
 ## 🗝️Features
 
   ▪️ Adjustable Modes: Switch between Pomodoro (25 minutes), Short Break (5 minutes), and Long Break (15 minutes).
+  
+  ▪️ Light & Dark Mode: The extentsion has a switch to change the backgorund color to light-dark color, for eye comfort.
 
   ▪️ Session Tracking: Automatically switches to a long break after every 4 Pomodoro sessions.
 
