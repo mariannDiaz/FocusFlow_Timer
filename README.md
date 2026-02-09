@@ -1,4 +1,4 @@
-# ⏱️FocusFlow Timer: Chrome Extension
+# ⏱️FocusFlow Timer
 
   ▪️A simple and elegant Pomodoro Timer built as a Chrome Extension.
   
