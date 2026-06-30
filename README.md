@@ -14,15 +14,13 @@
     ✅ JavaScript: For all the timer logic and functionality.
     
 ## 📷 Preview Images:
- 
-<!-- <img width="200" height="700" alt="Timer Chrome Extention" src="https://github.com/user-attachments/assets/d5ed9735-1372-4d00-8b18-bf3d03d1cc71" /><img width="200" height="700" alt="Timer Chrome Extention (1)" src="https://github.com/user-attachments/assets/fbc8cb37-856f-484b-a70e-940175b1adcf" /><img width="200" height="700" alt="Timer Chrome Extention (3)" src="https://github.com/user-attachments/assets/3f8f4cc6-0c74-4713-887e-52ef3393cf84" /> -->
 
-<img width="350" height="400" alt="6" src="https://github.com/user-attachments/assets/02003479-5db7-4e06-8f0b-068a0e57ef66" />
-<img width="350" height="400" alt="5" src="https://github.com/user-attachments/assets/1530e7c3-f563-4e9a-b327-f297bdd2a140" />
-<img width="350" height="400" alt="4" src="https://github.com/user-attachments/assets/2e49ba58-40e5-44f8-ad34-ea8a2bf2b388" />
-<img width="350" height="400" alt="3" src="https://github.com/user-attachments/assets/68388ac5-1608-4b97-92de-d03ebe454e4a" />
-<img width="350" height="400" alt="2" src="https://github.com/user-attachments/assets/e3c134be-788f-422b-a1f0-09846e74c4b7" />
-<img width="350" height="400" alt="1" src="https://github.com/user-attachments/assets/06b3e0d7-ef03-410a-a2a7-25c9fdd9ba2c" />
+<img width="400" height="500" alt="congrats-light" src="https://github.com/user-attachments/assets/e7156d1e-7bc4-45d3-b858-9f6dba718061" />
+<img width="400" height="500" alt="settings-light" src="https://github.com/user-attachments/assets/1bd502b6-b7e3-4a17-80e1-23e893314414" />
+<img width="400" height="500" alt="pomodoro-light" src="https://github.com/user-attachments/assets/b787c30c-f36d-44d4-852f-e8a94bbd1710" />
+<img width="400" height="500" alt="congrats-dark" src="https://github.com/user-attachments/assets/39f2ce4c-8864-4e38-8f12-e7f9f91bcd89" />
+<img width="400" height="500" alt="settings-dark" src="https://github.com/user-attachments/assets/e47d583c-6d01-4ddf-9c30-a9bb9f47ffec" />
+<img width="400" height="500" alt="pomodoro-dark" src="https://github.com/user-attachments/assets/5597ef7d-60ae-4da7-8e20-5a91e4470751" />
 
 
 
