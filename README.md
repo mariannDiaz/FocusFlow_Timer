@@ -1,7 +1,9 @@
 # ⏱️FocusFlow Timer
 
   ▪️A simple and elegant Pomodoro Timer built as a Chrome Extension.
+  
   ▪️Avoid getting distracted by looking away from your computer screen.
+  
   ▪️It helps you stay focused and manage your work sessions effectively.
 
 
