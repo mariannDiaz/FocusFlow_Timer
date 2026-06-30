@@ -17,12 +17,12 @@
  
 <!-- <img width="200" height="700" alt="Timer Chrome Extention" src="https://github.com/user-attachments/assets/d5ed9735-1372-4d00-8b18-bf3d03d1cc71" /><img width="200" height="700" alt="Timer Chrome Extention (1)" src="https://github.com/user-attachments/assets/fbc8cb37-856f-484b-a70e-940175b1adcf" /><img width="200" height="700" alt="Timer Chrome Extention (3)" src="https://github.com/user-attachments/assets/3f8f4cc6-0c74-4713-887e-52ef3393cf84" /> -->
 
-<img width="300" height="500" alt="6" src="https://github.com/user-attachments/assets/02003479-5db7-4e06-8f0b-068a0e57ef66" />
-<img width="300" height="500" alt="5" src="https://github.com/user-attachments/assets/1530e7c3-f563-4e9a-b327-f297bdd2a140" />
-<img width="300" height="500" alt="4" src="https://github.com/user-attachments/assets/2e49ba58-40e5-44f8-ad34-ea8a2bf2b388" />
-<img width="300" height="500" alt="3" src="https://github.com/user-attachments/assets/68388ac5-1608-4b97-92de-d03ebe454e4a" />
-<img width="300" height="500" alt="2" src="https://github.com/user-attachments/assets/e3c134be-788f-422b-a1f0-09846e74c4b7" />
-<img width="300" height="500" alt="1" src="https://github.com/user-attachments/assets/06b3e0d7-ef03-410a-a2a7-25c9fdd9ba2c" />
+<img width="350" height="400" alt="6" src="https://github.com/user-attachments/assets/02003479-5db7-4e06-8f0b-068a0e57ef66" />
+<img width="350" height="400" alt="5" src="https://github.com/user-attachments/assets/1530e7c3-f563-4e9a-b327-f297bdd2a140" />
+<img width="350" height="400" alt="4" src="https://github.com/user-attachments/assets/2e49ba58-40e5-44f8-ad34-ea8a2bf2b388" />
+<img width="350" height="400" alt="3" src="https://github.com/user-attachments/assets/68388ac5-1608-4b97-92de-d03ebe454e4a" />
+<img width="350" height="400" alt="2" src="https://github.com/user-attachments/assets/e3c134be-788f-422b-a1f0-09846e74c4b7" />
+<img width="350" height="400" alt="1" src="https://github.com/user-attachments/assets/06b3e0d7-ef03-410a-a2a7-25c9fdd9ba2c" />
 
 
 
