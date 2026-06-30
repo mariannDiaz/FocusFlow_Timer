@@ -5,15 +5,6 @@
   ✅ Avoid getting distracted by looking away from your computer screen.
   
   ✅ It helps you stay focused and manage your work sessions effectively.
-
-
-## ⚙️Technologies Used
-
-  - HTML: For the structure of the application.
-
-  - CSS: For styling and visual design.
-
-  - JavaScript: For all the timer logic and functionality.
     
 ## 📷 Preview Images:
 
@@ -38,3 +29,11 @@
   ▪️ Session Tracking: Automatically switches to a long break after every 4 Pomodoro sessions.
 
   ▪️ Clean UI: A minimalist design that's easy to use and distraction-free.
+
+## ⚙️Technologies Used
+
+- HTML: For the structure of the application.
+
+- CSS: For styling and visual design.
+
+- JavaScript: For all the timer logic and functionality.
