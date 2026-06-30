@@ -1,19 +1,19 @@
 # ⏱️FocusFlow Timer
 
-  - A simple and elegant Pomodoro Timer built as a Chrome Extension.
+  ✅ A simple and elegant Pomodoro Timer built as a Chrome Extension.
   
-  - Avoid getting distracted by looking away from your computer screen.
+  ✅ Avoid getting distracted by looking away from your computer screen.
   
-  - It helps you stay focused and manage your work sessions effectively.
+  ✅ It helps you stay focused and manage your work sessions effectively.
 
 
 ## ⚙️Technologies Used
 
-    ✅ HTML: For the structure of the application.
+  - HTML: For the structure of the application.
 
-    ✅ CSS: For styling and visual design.
+  - CSS: For styling and visual design.
 
-    ✅ JavaScript: For all the timer logic and functionality.
+  - JavaScript: For all the timer logic and functionality.
     
 ## 📷 Preview Images:
 
@@ -38,10 +38,3 @@
   ▪️ Session Tracking: Automatically switches to a long break after every 4 Pomodoro sessions.
 
   ▪️ Clean UI: A minimalist design that's easy to use and distraction-free.
-
-
-    ▪️ The Pomodoro Timer icon should now appear in your browser's toolbar.
-
-    ▪️ Click the icon to open the timer.
-
-    ▪️ Use the buttons to start, pause, reset, and switch between modes.
